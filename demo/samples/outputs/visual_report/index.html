@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pix2Pix visual report</title>
+  <style>
+    body { margin: 0; font-family: Arial, sans-serif; color: #17202a; background: #f6f7f9; }
+    header, main, footer { width: min(1180px, calc(100vw - 32px)); margin: 0 auto; }
+    header { padding: 32px 0 16px; }
+    h1 { margin: 0; font-size: 32px; letter-spacing: 0; }
+    h2 { margin: 0 0 10px; font-size: 18px; }
+    p { color: #5d6978; }
+    main { display: grid; gap: 16px; padding-bottom: 24px; }
+    article { background: #fff; border: 1px solid #d9dee7; border-radius: 8px; padding: 14px; }
+    img { display: block; width: 100%; height: auto; border: 1px solid #d9dee7; border-radius: 6px; background: #eef1f5; }
+    a { color: #0f766e; font-weight: 700; margin-right: 12px; }
+    footer { padding: 0 0 30px; color: #5d6978; font-size: 14px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>TU-Graz Landing Pix2Pix visual report</h1>
+    <p>Erik Figueiral Alonso - Roi Cores Cabaleiro</p>
+    <p>Checkpoint: models/improved_best_generator.pt - Device: cpu</p>
+  </header>
+  <main>
+    
+            <article>
+              <h2>sample_001</h2>
+              <img src="demo/samples/outputs/visual_report/comparisons/improved/sample_001_comparison.png" alt="Comparison for sample_001">
+              <p>
+                <a href="demo/samples/inputs/sample_001_label.png">label map</a>
+                <a href="demo/samples/outputs/visual_report/generated/improved/sample_001_generated.png">generated</a>
+                <a href="demo/samples/references/sample_001_real.png">reference</a>
+              </p>
+            </article>
+            
+  </main>
+  <footer>Generated with demo/make_visual_report.py. No extra dependencies required.</footer>
+</body>
+</html>

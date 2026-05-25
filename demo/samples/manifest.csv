@@ -1,0 +1,6 @@
+sample_id,source_split,source_relative_path,input_label_path,reference_real_path,paired_original_path,paired_width,paired_height,single_width,single_height
+sample_001,test,image_016.png,demo/samples/inputs/sample_001_label.png,demo/samples/references/sample_001_real.png,,1200,400,600,400
+sample_002,test,image_023.png,demo/samples/inputs/sample_002_label.png,demo/samples/references/sample_002_real.png,,1200,400,600,400
+sample_003,test,image_111.png,demo/samples/inputs/sample_003_label.png,demo/samples/references/sample_003_real.png,,1200,400,600,400
+sample_004,test,image_151.png,demo/samples/inputs/sample_004_label.png,demo/samples/references/sample_004_real.png,,1200,400,600,400
+sample_005,test,image_358.png,demo/samples/inputs/sample_005_label.png,demo/samples/references/sample_005_real.png,,1200,400,600,400
